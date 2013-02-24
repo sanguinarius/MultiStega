@@ -1,0 +1,24 @@
+================== MultiStega ==================
+
+For encrypt and hide txt message in .png file:
+
+python MultiStega.py -H -i /home/toto/Images/eyes.png -o /home/toto/Images/zzzzzzz.png -n 3
+
+
+For search your message in .png file with key pass:
+
+python MultiStega.py -R -i /home/toto/Images/zzzzzzz.png
+
+
+
+TODO ::::::
+
+- Class Refactoring
+- Delete Separator
+- Add Message auto detection.
+
+
+:::: Warning ::::
+In all forensic task, if they are a encrypted message in stegano file message are detectable,
+(hidden truecrypt volume are detectable for example) but message are encrypted.
+You can see message but not read this if you aren't Key pass.
